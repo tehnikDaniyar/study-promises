@@ -15,5 +15,11 @@ export const them96_1 = () => {
 		}))
 	};
 
-	Promise.all(promises).then((result) => { console.log(result); })
+	Promise.all(promises).then(result => console.log(result));
+
+	//===========them96 task2=============================
+	Promise.race(promises).then(result => console.log(result));
+
+	//===========them96 task3=============================
+	Promise.all(promises).then(result => console.log(result.reduce((summ, num) => summ + +num, 0)))
 };
