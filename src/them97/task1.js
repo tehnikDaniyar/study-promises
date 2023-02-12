@@ -13,13 +13,13 @@ export const them97_1 = () => {
 		}
 	};
 
-	func(-3)
+	func(8)
 		.then(
 			result => console.log(result)
 		).catch(
 			error => error ** 2
 		).then(
-			result => console.log(result)
+			result => result ? console.log(result) : null
 		);
 
 };

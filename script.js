@@ -8,6 +8,7 @@ import { them96_1 } from "./src/them96/task1.js";
 import { them97_1 } from "./src/them97/task1.js";
 import { them98_1 } from "./src/them98/task1.js";
 import { them98_2 } from "./src/them98/task2.js";
+import { them98_3 } from "./src/them98/task3.js";
 
 
 // them94_1();
@@ -19,4 +20,6 @@ import { them98_2 } from "./src/them98/task2.js";
 // them96_1();
 // them97_1();
 // them98_1();
-them98_2();
+// them98_2();
+
+them98_3();
