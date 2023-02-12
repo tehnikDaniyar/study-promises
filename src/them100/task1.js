@@ -5,6 +5,7 @@ export const them100_1 = () => {
 		})
 	};
 
+	//============them100_1=========================
 	async function getSummThrice(num1, num2, num3) {
 		let res1 = await getSmth(num1);
 		let res2 = await getSmth(num2);
